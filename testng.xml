@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression suite">
+
+    <parameter name="browser" value="firefox">
+        <test name="Regression test" preserve-order="false">
+            <classes>
+                <class name="tests.RegisterWithJson"/>
+                <class name="tests.SearchTest"/>
+                <class name="tests.AddToCartTest"/>
+                <class name="tests.MenTest"/>
+                <class name="tests.WomenTest"/>
+                <class name="tests.LogTest"/>
+                <class name="tests.UpdateCartTest"/>
+                <class name="tests.CheckOutTest"/>
+                <class name="tests.AccessoriesTest"/>
+                <class name="tests.WishListTest"/>
+                <class name="tests.SaleTest"/>
+                <class name="tests.HomeAndDecorTest"/>
+                <class name="tests.EditWishListTest"/>
+                <class name="tests.ShareWishListTest"/>
+            </classes>
+        </test>
+        
+        
+        
+        
+        
+        
+    </parameter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>
